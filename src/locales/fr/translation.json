@@ -1,0 +1,33 @@
+{
+    "home": "Accueil",
+    "projects": "Projets",
+    "terminal": "Terminal",
+    "explore": "Explorer",
+    "contact" : "Contact",
+    "welcome": "Bienvenue sur mon site web!",
+    "description": "Découvrez mes projets et compétences.",
+    "heroTitle": "Créer des expériences alimentées par l'IA",
+    "heroSubtitle": "Je suis {{name}}, un développeur full-stack visionnaire à l'avant-garde de l'intégration de l'IA.",
+    "exploreProjects": "Découvrir les projets",
+    "getInTouch": "Contactez-moi",
+    "featuredProjects": "Projets en vedette",
+    "promptTellMeAboutProjects": "Parlez-moi de vos projets",
+    "promptProgrammingLanguages": "Quelles langues de programmation connaissez-vous?",
+    "promptHowToContact": "Comment puis-je vous contacter?",
+    "promptFavoriteProject": "Quel est votre projet préféré?",
+
+    "logo": {
+    "name": "Ilyas Khiat",
+    "title": "IA - DATA - LOGICIEL"
+    },
+
+    "hero": {
+    "title1": "Bonjour, je suis Ilyas. Votre Partenaire en Innovation IA",
+    "description": "En tant qu'ingénieur en IA et en logiciels, je me concentre sur la création de solutions qui font la différence. Si vous avez des questions ou souhaitez savoir comment je peux ajouter de la valeur à votre projet, mon assistant chatbot est là pour vous aider.",
+    "buttons": {
+      "exploreProjects": "Explorer les Projets",
+      "getInTouch": "Contactez-moi"
+    }
+  }
+}
+  

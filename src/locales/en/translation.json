@@ -1,0 +1,35 @@
+{
+    "home": "Home",
+    "projects": "Projects",
+    "terminal": "Terminal",
+    "contact" : "Contact",
+    "explore": "Explore",
+    "welcome": "Welcome to my website!",
+    "description": "Explore my projects and skills.",
+    "heroTitle": "Crafting AI-Powered Experiences",
+    "heroSubtitle": "I'm {{name}}, a visionary full-stack developer at the forefront of AI integration.",
+    "exploreProjects": "Explore Projects",
+    "getInTouch": "Get in Touch",
+    "featuredProjects": "Featured Projects",
+    "promptTellMeAboutProjects": "Tell me about your projects",
+    "promptProgrammingLanguages": "What programming languages do you know?",
+    "promptHowToContact": "How can I contact you?",
+    "promptFavoriteProject": "What's your favorite project?",
+
+    "logo": {
+    "name": "Ilyas Khiat",
+    "title": "AI - DATA - SOFTWARE"
+  },
+
+    "hero": {
+    "title1": "Hi, I'm Ilyas. Your Partner in AI Innovation",
+    "title2": "Your Partner in AI Innovation",
+    "description": "As an AI and software engineer, I focus on building solutions that make a difference. If you have any questions or want to know how I can add value to your project, my chatbot assistant is here to help.",
+    "buttons": {
+      "exploreProjects": "Explore My Work",
+      "getInTouch": "Let's Connect"
+      }
+    }
+
+}
+  
