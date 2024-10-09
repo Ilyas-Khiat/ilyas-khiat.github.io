@@ -4,7 +4,7 @@ interface BackgroundShapesProps {
     isDarkMode: boolean
   }
   
-  function BackgroundShapes({ isDarkMode }: BackgroundShapesProps) {
+  function BackgroundShapes({ }: BackgroundShapesProps) {
     return (
       <div className="fixed inset-0 z-0 overflow-hidden">
         {/* Blob 1 */}

@@ -5,11 +5,11 @@ import { useTranslation } from 'react-i18next';
 import Navbar from './components/Navbar';
 import BackgroundShapes from './components/BackgroundShapes';
 import ChatAssistant from './components/ChatAssistant';
-import ProjectCard from './components/ProjectCard';
+
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { Button } from '@/components/ui/button';
-import { Globe, Bot, Zap } from 'lucide-react';
+
 import ProjectList from './components/ProjectList';
 
 function App() {
