@@ -2,14 +2,14 @@
 
 import { motion } from 'framer-motion'
 import { FileText, Github, Linkedin } from 'lucide-react'
-import { Button } from '@/components/ui/Button'
+import { Button } from '@/components/ui/button'
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from '@/components/ui/Card'
+} from '@/components/ui/card'
 
 const socialLinks = [
   { name: 'GitHub', icon: <Github className="w-6 h-6" />, url: 'https://github.com/ilyas-khiat' },

@@ -3,7 +3,6 @@ import { useState, useRef, useEffect } from 'react';
 import {
   Home,
   FolderKanban,
-  Terminal,
   Compass,
   Menu,
   Sun,
@@ -33,7 +32,7 @@ function Navbar({
   const [activeButton, setActiveButton] = useState<string | null>('home');
   const { t, i18n } = useTranslation();
   const [isLanguageMenuOpen, setLanguageMenuOpen] = useState(false);
-  const languageMenuRef = useRef<HTMLDivElement>(null);
+  const languageMenuRef = useRef<HTMLLIElement>(null);
 
   const handleButtonClick = (buttonId: string) => {
     setActiveButton(buttonId);

@@ -9,6 +9,7 @@ import remarkGfm from 'remark-gfm'
 import CustomLink from './CustomLink'
 
 
+
 function ChatAssistant() {
   const [message, setMessage] = useState('')
   const [robotMessage, setRobotMessage] = useState(
@@ -44,7 +45,7 @@ function ChatAssistant() {
 
       const dev = import.meta.env.VITE_DEV_MODE;
       let url = import.meta.env.VITE_API_URL;
-      if (dev) {
+      if (dev === 'true') {
         url = 'http://localhost:8000';
       }
       
