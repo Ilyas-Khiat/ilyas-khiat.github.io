@@ -47,7 +47,7 @@ export default function AboutMeSection() {
               <div className="flex flex-wrap gap-4">
                 <Button
                   className="flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white"
-                  onClick={() => window.open('/cv.pdf', '_blank')}
+                
                 >
                   <FileText className="w-4 h-4" />
                   <span>Download CV</span>
