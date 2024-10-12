@@ -18,6 +18,7 @@ function App() {
 
   const projectsRef = useRef<HTMLDivElement>(null);
   const contactRef = useRef<HTMLDivElement>(null);
+  const assistantRef = useRef<HTMLDivElement>(null);
 
   const scrollToProjects = () => {
     projectsRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -25,6 +26,10 @@ function App() {
 
   const scrollToContact = () => {
     contactRef.current?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const scrollToAssistant = () => {
+    assistantRef.current?.scrollIntoView({ behavior: 'smooth' });
   };
 
   const scrollToHome = () => {
@@ -59,6 +64,7 @@ function App() {
             scrollToHome={scrollToHome}
             scrollToProjects={scrollToProjects}
             scrollToContact={scrollToContact} 
+            scrollToAssistant={scrollToAssistant}
           />
         </header>
 
@@ -91,7 +97,9 @@ function App() {
               </div>
             </div>
             <div>
+              <section ref={assistantRef}  className="">
               <ChatAssistant />
+              </section>
             </div>
           </div>
         </section>

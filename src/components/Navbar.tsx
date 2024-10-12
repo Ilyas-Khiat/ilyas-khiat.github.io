@@ -8,6 +8,7 @@ import {
   Sun,
   Moon,
   Globe,
+  Bot,
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
@@ -20,6 +21,7 @@ interface NavbarProps {
   scrollToHome: () => void;
   scrollToProjects: () => void;
   scrollToContact: () => void;
+  scrollToAssistant: () => void;
 }
 
 function Navbar({
@@ -28,6 +30,7 @@ function Navbar({
   scrollToHome,
   scrollToProjects,
   scrollToContact,
+  scrollToAssistant,
 }: NavbarProps) {
   const [activeButton, setActiveButton] = useState<string | null>('home');
   const { t, i18n } = useTranslation();
@@ -42,6 +45,9 @@ function Navbar({
         break;
       case 'projects':
         scrollToProjects();
+        break;
+      case 'chatbot':
+        scrollToAssistant();
         break;
       case 'contact':
         scrollToContact();
@@ -145,6 +151,11 @@ function Navbar({
                     id="contact"
                     name={t('contact')}
                     icon={<Compass className="h-5 w-5" />}
+                  />
+                  <NavButton
+                    id="chatbot"
+                    name="ChatBot"
+                    icon={<Bot className="h-5 w-5" />}
                   />
                 </nav>
               </SheetContent>

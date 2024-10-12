@@ -26,7 +26,7 @@ function Footer() {
           </div>
           
           <p className="text-center mt-4 text-gray-600 dark:text-gray-400">
-            © 2023 Ilyas Khiat. All rights reserved.
+            © 2024 Ilyas Khiat. All rights reserved.
           </p>
         </div>
       </footer>
