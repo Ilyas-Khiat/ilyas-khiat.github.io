@@ -21,6 +21,11 @@ import {
 } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 
+import theo_image from '@/assets/theo.png';
+import carbone_image from '@/assets/carbone.png';
+import carto_image from '@/assets/carto.png';
+import tumor_image from '@/assets/tumor.jpeg';
+
 interface Project {
   id: number;
   title: string;
@@ -48,7 +53,7 @@ const projects: Project[] = [
     ],
     icon: <FileText className="w-8 h-8 text-blue-500" />,
     link: 'https://huggingface.co/spaces/bziiit/AGENT_ANALYSE_RAG?logs=container',
-    illustration: 'src/assets/theo.png',
+    illustration: theo_image,
   },
   {
     id: 2,
@@ -66,7 +71,7 @@ const projects: Project[] = [
     ],
     icon: <Leaf className="w-8 h-8 text-green-500" />,
     link: 'https://huggingface.co/spaces/bziiit/OpenData-Bordeaux-IA-RSE?logs=container',
-    illustration: 'src/assets/carbone.png',
+    illustration: carbone_image,
   },
   {
     id: 3,
@@ -83,7 +88,7 @@ const projects: Project[] = [
     ],
     icon: <Users className="w-8 h-8 text-purple-500" />,
     link: 'https://huggingface.co/spaces/bziiit/OpenData-Bordeaux-IA-RSE?logs=container',
-    illustration: 'src/assets/carto.png',
+    illustration: carto_image,
   },
   // {
   //   id: 4,
@@ -118,7 +123,7 @@ const projects: Project[] = [
     ],
     icon: <Activity className="w-8 h-8 text-red-500" />,
     link: 'https://github.com/Ilyas-Khiat/Tumor-Detection-in-MRI-Images-using-CNN',
-    illustration: 'src/assets/tumor.jpeg',
+    illustration: tumor_image,
   },
   {
     id: 6,
