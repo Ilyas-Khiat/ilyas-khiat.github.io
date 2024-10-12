@@ -1,5 +1,5 @@
 // src/components/Footer.tsx
-import { Github, Twitter, Linkedin} from 'lucide-react'
+import { Github, Linkedin} from 'lucide-react'
 import { SiHuggingface ,SiBehance } from 'react-icons/si' // For the Hugging Face icon
 
 function Footer() {
