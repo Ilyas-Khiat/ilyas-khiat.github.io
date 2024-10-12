@@ -16,8 +16,21 @@
     "promptHowToContact": "How can I contact you?",
     "promptFavoriteProject": "What's your favorite project?",
 
+    "contactMe": "Contact Me",
+    "yourName": "Your Name",
+    "namePlaceholder": "Enter your name",
+    "yourEmail": "Your Email",
+    "emailPlaceholder": "Enter your email",
+    "yourMessage": "Your Message",
+    "messagePlaceholder": "Type your message...",
+    "sendMessage": "Send Message",
+    "thankYouMessage": "Thank you for reaching out! I will get back to you soon.",
+    "nameRequired": "Name is required.",
+    "validEmailRequired": "A valid email is required.",
+    "messageRequired": "Message is required.",
+
     "logo": {
-    "name": "Ilyas Khiat",
+    "name": "IK",
     "title": "AI - DATA - SOFTWARE"
   },
 
@@ -29,7 +42,19 @@
       "exploreProjects": "Explore My Work",
       "getInTouch": "Let's Connect"
       }
-    }
+    },
 
+    "chatassistant": {
+    "placeholder": "Type your message...",
+    "robotMessage": "**Questions?** 🤔\n\nI'm Ilyas' AI assistant 🤖. Chat with me to discover how we can add value to your projects.\n\n++\n\n***PS:** Some suggestions to get started are above the chat box.*",
+    "prompts": [
+      "What's your favorite project?",
+      "Can you describe your experience?",
+      "What are your skills?",
+      "Tell me about your projects.",
+      "How can I contact you?",
+      "Your Hobbies?"
+    ]
+  }
 }
   

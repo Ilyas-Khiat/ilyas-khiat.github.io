@@ -16,8 +16,21 @@
     "promptHowToContact": "Comment puis-je vous contacter?",
     "promptFavoriteProject": "Quel est votre projet préféré?",
 
+    "contactMe": "Contactez-moi",
+    "yourName": "Votre nom",
+    "namePlaceholder": "Entrez votre nom",
+    "yourEmail": "Votre email",
+    "emailPlaceholder": "Entrez votre email",
+    "yourMessage": "Votre message",
+    "messagePlaceholder": "Tapez votre message...",
+    "sendMessage": "Envoyer le message",
+    "thankYouMessage": "Merci de m'avoir contacté ! Je reviendrai vers vous bientôt.",
+    "nameRequired": "Le nom est obligatoire.",
+    "validEmailRequired": "Un email valide est requis.",
+    "messageRequired": "Le message est obligatoire.",
+
     "logo": {
-    "name": "Ilyas Khiat",
+    "name": "IK",
     "title": "IA - DATA - LOGICIEL"
     },
 
@@ -27,7 +40,21 @@
     "buttons": {
       "exploreProjects": "Explorer les Projets",
       "getInTouch": "Contactez-moi"
-    }
+      } 
+    },
+
+    "chatassistant": {
+    "placeholder": "Tapez votre message...",
+    "robotMessage": "**Des questions ?** 🤔\n\nJe suis l'assistant IA d'Ilyas 🤖. Discutez avec moi pour découvrir comment nous pouvons ajouter de la valeur à vos projets.\n\n++\n\n***PS :** Quelques suggestions pour commencer sont au-dessus de la boîte de dialogue.*",
+    "prompts": [
+      "Quel est ton projet préféré ?",
+      "Peux-tu décrire ton expérience ?",
+      "Quelles sont tes compétences ?",
+      "Parle-moi de tes projets.",
+      "Comment puis-je te contacter ?",
+      "Tes passe-temps ?"
+    ]
   }
+
 }
   

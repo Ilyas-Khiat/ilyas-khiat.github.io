@@ -13,7 +13,7 @@ import {
 
 const socialLinks = [
   { name: 'GitHub', icon: <Github className="w-6 h-6" />, url: 'https://github.com/ilyas-khiat' },
-  { name: 'LinkedIn', icon: <Linkedin className="w-6 h-6" />, url: 'https://linkedin.com/in/ilyaskhiat' },
+  { name: 'LinkedIn', icon: <Linkedin className="w-6 h-6" />, url: 'https://www.linkedin.com/in/ilyas-khiat-148a73254/' },
   // Add or remove links as needed
 ]
 

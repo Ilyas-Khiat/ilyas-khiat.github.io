@@ -13,7 +13,7 @@ import { Button } from '@/components/ui/button';
 import ProjectList from './components/ProjectList';
 
 function App() {
-  const [isDarkMode, setIsDarkMode] = useState(true);
+  const [isDarkMode, setIsDarkMode] = useState(false);
   const { t } = useTranslation();
 
   const projectsRef = useRef<HTMLDivElement>(null);
@@ -65,6 +65,7 @@ function App() {
         {/* Hero Section */}
         <section className="min-h-screen flex items-center pt-16">
           <div className="container mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+            <div className="h-10 sm:hidden"></div>
             <div className="space-y-6">
               <h1 className="text-5xl md:text-7xl font-bold leading-tight">
                 {t('hero.title1')}

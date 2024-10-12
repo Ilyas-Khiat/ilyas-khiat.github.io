@@ -35,7 +35,7 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: 'THEO Pratik - AI Document Analysis and Knowledge Graph Application',
+    title: 'THEO Pratik - AI Document Analysis and Knowledge Graph Application (Internship bziiit)',
     description:
       'An AI application to analyze documents and generate knowledge graphs, facilitating quicker understanding of complex reports, images, and other documents. Implemented traditional RAG and Knowledge Graph techniques.',
     keywords: [
@@ -49,11 +49,11 @@ const projects: Project[] = [
     ],
     icon: <FileText className="w-8 h-8 text-blue-500" />,
     link: 'https://huggingface.co/spaces/bziiit/AGENT_ANALYSE_RAG?logs=container',
-    illustration: 'https://placeholder.pics/svg/300x200',
+    illustration: 'src/assets/theo.png',
   },
   {
     id: 2,
-    title: 'AI Carbon Footprint Application',
+    title: 'AI Carbon Footprint Application (Internship bziiit)',
     description:
       'An application to calculate the carbon footprint of AI processes using AFNOR SPEC IA Frugale standards, directly linked to OpenData Bordeaux. Adapted the EcoloGit library to measure the carbon impact of LLM queries and integrated it with the RAG system.',
     keywords: [
@@ -67,11 +67,11 @@ const projects: Project[] = [
     ],
     icon: <Leaf className="w-8 h-8 text-green-500" />,
     link: 'https://huggingface.co/spaces/bziiit/OpenData-Bordeaux-IA-RSE?logs=container',
-    illustration: 'https://placeholder.pics/svg/300x200',
+    illustration: 'src/assets/carbone.png',
   },
   {
     id: 3,
-    title: 'OpenData Bordeaux RSE Application',
+    title: 'OpenData Bordeaux RSE Application (Internship bziiit)',
     description:
       'Built an application to extract and analyze stakeholders from public web data, using AI for stakeholder mapping in CSR contexts.',
     keywords: [
@@ -84,29 +84,29 @@ const projects: Project[] = [
     ],
     icon: <Users className="w-8 h-8 text-purple-500" />,
     link: 'https://huggingface.co/spaces/bziiit/OpenData-Bordeaux-IA-RSE?logs=container',
-    illustration: 'https://placeholder.pics/svg/300x200',
+    illustration: 'src/assets/carto.png',
   },
-  {
-    id: 4,
-    title: 'IA Vegetalis - Marketing Content Generator for Agricultural Event',
-    description:
-      "Developed a marketing content generation agent for an agricultural event ('Salon d'Agriculture'). The agent uses hybrid RAG techniques combining public event data and private company data to generate personalized marketing content.",
-    keywords: [
-      'RAG',
-      'AI/ML',
-      'Event-specific AI',
-      'Content Generation',
-      'LangChain',
-      'FastAPI',
-      'Vector Databases',
-    ],
-    icon: <Globe className="w-8 h-8 text-yellow-500" />,
-    link: 'https://bziiit-vegetalis-ai-api.hf.space/docs',
-    illustration: 'https://placeholder.pics/svg/300x200',
-  },
+  // {
+  //   id: 4,
+  //   title: 'IA Vegetalis - Marketing Content Generator for Agricultural Event (Internship bziiit)',
+  //   description:
+  //     "Developed a marketing content generation agent for an agricultural event ('Salon d'Agriculture'). The agent uses hybrid RAG techniques combining public event data and private company data to generate personalized marketing content.",
+  //   keywords: [
+  //     'RAG',
+  //     'AI/ML',
+  //     'Event-specific AI',
+  //     'Content Generation',
+  //     'LangChain',
+  //     'FastAPI',
+  //     'Vector Databases',
+  //   ],
+  //   icon: <Globe className="w-8 h-8 text-yellow-500" />,
+  //   link: 'https://bziiit-vegetalis-ai-api.hf.space/docs',
+  //   illustration: 'https://placeholder.pics/svg/300x200',
+  // },
   {
     id: 5,
-    title: 'Brain Tumor Detection Using CNN',
+    title: 'Brain Tumor Detection Using CNN (Personal)',
     description:
       'Built a CNN-based Python application for detecting brain tumors from MRI images. Started with basic NumPy implementations, evolving to a more complex TensorFlow architecture.',
     keywords: [
@@ -119,11 +119,11 @@ const projects: Project[] = [
     ],
     icon: <Activity className="w-8 h-8 text-red-500" />,
     link: 'https://github.com/Ilyas-Khiat/Tumor-Detection-in-MRI-Images-using-CNN',
-    illustration: 'https://placeholder.pics/svg/300x200',
+    illustration: 'src/assets/tumor.jpeg',
   },
   {
     id: 6,
-    title: 'Steganography Application',
+    title: 'Steganography Application (Personal)',
     description:
       'Developed an application to hide messages in images using steganography techniques. Integrated image processing tools and developed a GUI.',
     keywords: [
@@ -136,11 +136,11 @@ const projects: Project[] = [
     ],
     icon: <Lock className="w-8 h-8 text-indigo-500" />,
     link: 'https://github.com/Ilyas-Khiat/stegano-app',
-    illustration: 'https://placeholder.pics/svg/300x200',
+    illustration: 'https://raw.githubusercontent.com/Ilyas-Khiat/stegano-app/refs/heads/main/readme_img/home.PNG',
   },
   {
     id: 7,
-    title: 'Pathfinding and Sorting Visualizer',
+    title: 'Pathfinding and Sorting Visualizer (Personal)',
     description:
       "Created a visualization tool for pathfinding and sorting algorithms. Implemented popular algorithms such as A* and Merge Sort, visualized through Python's Pygame.",
     keywords: [
@@ -152,7 +152,7 @@ const projects: Project[] = [
     ],
     icon: <Map className="w-8 h-8 text-orange-500" />,
     link: 'https://github.com/Ilyas-Khiat/python-pathfinder-GUI',
-    illustration: 'https://placeholder.pics/svg/300x200',
+    illustration: 'https://github.com/Ilyas-Khiat/python-pathfinder-GUI/blob/main/readme_imgs/main.PNG?raw=true',
   },
 ];
 

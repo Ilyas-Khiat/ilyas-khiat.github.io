@@ -1,31 +1,26 @@
 // src/components/ChatAssistant.tsx
 
-import { useState } from 'react'
+import { useState,useEffect } from 'react'
 import { Bot, SendIcon, XIcon } from 'lucide-react'
 import { Input } from '@/components/ui/input'
 import { Button } from '@/components/ui/button'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import CustomLink from './CustomLink'
-
-
+import { useTranslation } from 'react-i18next'
 
 function ChatAssistant() {
+  const { t } = useTranslation();
+
   const [message, setMessage] = useState('')
-  const [robotMessage, setRobotMessage] = useState(
-    "**Have Questions?** 🤔\n\nI'm Ilyas's AI assistant 🤖. Chat with me to discover how we can add value to your projects.\n\n++\n\n***PS:** Some prompts to get you started are on top of the chat box.*"
-  );
+  const [robotMessage, setRobotMessage] = useState(t('chatassistant.robotMessage'))
   const [isStreaming, setIsStreaming] = useState(false)
   const [isLoading, setIsLoading] = useState(false)
   const [isAssistantActive, setIsAssistantActive] = useState(false)
 
-  const promptExamples = [
-    "What's your favorite project?",
-    'Can you describe your experience?',
-    'What are your skills?',
-    'Tell me about your projects.',
-    'How can I contact you?',
-  ];
+  const promptExamples: string[] = t('chatassistant.prompts', { returnObjects: true }) as string[];
+
+  useEffect(() => { setRobotMessage(t('chatassistant.robotMessage')) }, [t])
   
 
   // Handle form submission
@@ -129,7 +124,7 @@ function ChatAssistant() {
     <div className="w-full max-w-lg mx-auto space-y-4">
       {/* Prompt Examples */}
       <div className="flex flex-wrap gap-2 mb-4">
-        {promptExamples.map((prompt, index) => (
+        {promptExamples.map((prompt:string, index:number) => (
           <button
             key={index}
             onClick={() => handlePromptClick(prompt)}
@@ -145,7 +140,7 @@ function ChatAssistant() {
         <div className="flex items-center space-x-2 backdrop-blur-md bg-white/50 dark:bg-gray-800/50 rounded-full p-2 border border-gray-200 dark:border-gray-700/50 transition-all duration-300 focus-within:border-blue-500/50 focus-within:shadow-[0_0_20px_rgba(59,130,246,0.7)] focus:border-blue-500">
           <Input
             type="text"
-            placeholder="Type a message..."
+            placeholder={t('chatassistant.placeholder')}
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             disabled={isStreaming}
