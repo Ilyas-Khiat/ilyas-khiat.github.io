@@ -24,6 +24,20 @@ function App() {
     projectsRef.current?.scrollIntoView({ behavior: 'smooth' });
   };
 
+  const scrollToherocomponent = () => {
+    const isMobile = window.innerWidth <= 768;
+
+    // Check if it's mobile and scroll to chatassistant section
+    if (isMobile) {
+      assistantRef.current?.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    // Otherwise, scroll to projects section
+    else {
+      projectsRef.current?.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
   const scrollToContact = () => {
     contactRef.current?.scrollIntoView({ behavior: 'smooth' });
   };
@@ -83,7 +97,7 @@ function App() {
                 {t('hero.description')}
               </p>
               <div className="flex space-x-4">
-                <Button onClick={scrollToProjects} size="lg" className="bg-blue-500 hover:bg-blue-600 text-white">
+                <Button onClick={scrollToherocomponent} size="lg" className="bg-blue-500 hover:bg-blue-600 text-white">
                   {t('hero.buttons.exploreProjects')}
                 </Button>
                 <Button

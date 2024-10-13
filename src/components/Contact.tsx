@@ -5,6 +5,7 @@ import { Textarea } from '../components/ui/textarea';
 import { useTranslation } from 'react-i18next';
 import AboutMeSection from '../components/AboutMeSection';
 
+
 function Contact() {
   const { t } = useTranslation();
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });

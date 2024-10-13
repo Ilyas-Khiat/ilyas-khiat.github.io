@@ -11,6 +11,8 @@ import {
   CardTitle,
 } from '@/components/ui/card'
 
+import  cv  from '@/assets/cv_ilyas.pdf';
+
 const socialLinks = [
   { name: 'GitHub', icon: <Github className="w-6 h-6" />, url: 'https://github.com/ilyas-khiat' },
   { name: 'LinkedIn', icon: <Linkedin className="w-6 h-6" />, url: 'https://www.linkedin.com/in/ilyas-khiat-148a73254/' },
@@ -47,7 +49,7 @@ export default function AboutMeSection() {
               <div className="flex flex-wrap gap-4">
                 <Button
                   className="flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white"
-                
+                  onClick={() => window.open(cv, '_blank')}
                 >
                   <FileText className="w-4 h-4" />
                   <span>Download CV</span>
