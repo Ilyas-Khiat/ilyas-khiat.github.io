@@ -21,6 +21,44 @@ function ChatAssistant() {
   const promptExamples: string[] = t('chatassistant.prompts', { returnObjects: true }) as string[];
 
   useEffect(() => { setRobotMessage(t('chatassistant.robotMessage')) }, [t])
+
+  //send a request to the server in the background when the component is mounted to wake up the server
+  useEffect(() => {
+    const apiKey = import.meta.env.VITE_API_KEY;
+
+    const dev = import.meta.env.VITE_DEV_MODE;
+    let url = import.meta.env.VITE_API_URL;
+    if (dev === 'true') {
+      url = 'http://localhost:8000';
+    }
+    const fetchData = async () => {
+      try {
+        const response = await fetch(url+'/generate', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${apiKey}`,
+          },
+          body: JSON.stringify({
+            query: 'this is a test query, respond with OKI if received',
+            stream: false,
+            messages: [], // Empty messages as we're not maintaining history
+          }),
+        })
+
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`)
+        }
+
+        const data = await response.json()
+        console.log(data)
+      } catch (error: any) {
+        console.error('Error:', error)
+      }
+    }
+
+    fetchData()
+  }, [])
   
 
   // Handle form submission

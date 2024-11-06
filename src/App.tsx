@@ -13,7 +13,7 @@ import { Button } from '@/components/ui/button';
 import ProjectList from './components/ProjectList';
 
 function App() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
   const { t } = useTranslation();
 
   const projectsRef = useRef<HTMLDivElement>(null);

@@ -87,8 +87,8 @@ function Navbar({
   };
 
   // Get the current language code
-  const currentLanguageCode = i18n.language || 'en';
-  const currentLanguage = languageNames[currentLanguageCode] || 'English';
+  const currentLanguageCode = 'en';
+  const currentLanguage = 'English';
 
   const NavButton = ({
     id,
