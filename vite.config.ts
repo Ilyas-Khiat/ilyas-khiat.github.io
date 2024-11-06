@@ -10,5 +10,5 @@ export default defineConfig({
       //"base":"/"
     },
   },
-  base: "/ilyas-khiat.github.io/"",
+  base: "/ilyas-khiat.github.io/",
 })
