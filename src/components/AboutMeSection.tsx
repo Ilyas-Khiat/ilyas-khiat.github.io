@@ -11,7 +11,7 @@ import {
   CardTitle,
 } from '@/components/ui/card'
 
-import  cv  from '@/assets/cv_ilyas.pdf';
+import  cv  from '@/assets/cv_ilyas_khiat.pdf';
 
 const socialLinks = [
   { name: 'GitHub', icon: <Github className="w-6 h-6" />, url: 'https://github.com/ilyas-khiat' },
