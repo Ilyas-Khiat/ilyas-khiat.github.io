@@ -39,7 +39,7 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: 'THEO Pratik - AI Document Analysis and Knowledge Graph Application (Internship bziiit)',
+    title: 'THEO Pratik - AI Document Analysis and Knowledge Graph Application',
     description:
       'An AI application to analyze documents and generate knowledge graphs, facilitating quicker understanding of complex reports, images, and other documents. Implemented traditional RAG and Knowledge Graph techniques.',
     keywords: [
@@ -57,7 +57,7 @@ const projects: Project[] = [
   },
   {
     id: 2,
-    title: 'AI Carbon Footprint Application (Internship bziiit)',
+    title: 'AI Carbon Footprint Application',
     description:
       'An application to calculate the carbon footprint of AI processes using AFNOR SPEC IA Frugale standards, directly linked to OpenData Bordeaux. Adapted the EcoloGit library to measure the carbon impact of LLM queries and integrated it with the RAG system.',
     keywords: [
@@ -75,7 +75,7 @@ const projects: Project[] = [
   },
   {
     id: 3,
-    title: 'OpenData Bordeaux RSE Application (Internship bziiit)',
+    title: 'OpenData Bordeaux RSE Application',
     description:
       'Built an application to extract and analyze stakeholders from public web data, using AI for stakeholder mapping in CSR contexts.',
     keywords: [
@@ -110,7 +110,7 @@ const projects: Project[] = [
   // },
   {
     id: 5,
-    title: 'Brain Tumor Detection Using CNN (Personal)',
+    title: 'Brain Tumor Detection Using CNN',
     description:
       'Built a CNN-based Python application for detecting brain tumors from MRI images. Started with basic NumPy implementations, evolving to a more complex TensorFlow architecture.',
     keywords: [
@@ -127,7 +127,7 @@ const projects: Project[] = [
   },
   {
     id: 6,
-    title: 'Steganography Application (Personal)',
+    title: 'Steganography Application',
     description:
       'Developed an application to hide messages in images using steganography techniques. Integrated image processing tools and developed a GUI.',
     keywords: [
@@ -144,7 +144,7 @@ const projects: Project[] = [
   },
   {
     id: 7,
-    title: 'Pathfinding and Sorting Visualizer (Personal)',
+    title: 'Pathfinding and Sorting Visualizer',
     description:
       "Created a visualization tool for pathfinding and sorting algorithms. Implemented popular algorithms such as A* and Merge Sort, visualized through Python's Pygame.",
     keywords: [
